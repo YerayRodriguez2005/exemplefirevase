@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class PaginaResgistro extends StatelessWidget {
   const PaginaResgistro({super.key});
-
+  void hacerRegistro() {}
   @override
   Widget build(BuildContext context) {
     final TextEditingController tecEmail = TextEditingController();
@@ -84,7 +84,7 @@ class PaginaResgistro extends StatelessWidget {
                   height: 10,
                 ),
                 //Boton no estas registrado?
-                 Padding(
+                Padding(
                   padding: const EdgeInsets.only(right: 25),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
@@ -106,11 +106,18 @@ class PaginaResgistro extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 //Boton registrarse
-                BotonAuth()
+                BotonAuth(
+                  texto: "Registro",
+                  onTap: hacerRegistro,
+                ),
+                BotonAuth(
+                  texto: "LogOut",
+                  onTap: () {},
+                ),
               ],
             ),
           ),
