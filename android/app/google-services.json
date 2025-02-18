@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345325588343",
+    "project_id": "flutterfirebasprueba",
+    "storage_bucket": "flutterfirebasprueba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345325588343:android:b119b79ff22922e37c5b72",
+        "android_client_info": {
+          "package_name": "com.example.exemplefirevase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOAbD4aCs24NxcAg1BEA0-byVFwUlj_SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
