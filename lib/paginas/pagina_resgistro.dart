@@ -1,10 +1,14 @@
 import 'package:exemplefirevase/Componentes/boton_auth.dart';
 import 'package:exemplefirevase/Componentes/textfield_auth.dart';
+import 'package:exemplefirevase/auth/servei_auth.dart';
 import 'package:flutter/material.dart';
 
 class PaginaResgistro extends StatelessWidget {
   const PaginaResgistro({super.key});
-  void hacerRegistro() {}
+  void hacerRegistro() {
+    final ServeiAuth servicioAuth = ServeiAuth();
+    servicioAuth.registroconmailycontarena("email@email.com", "123456");
+  }
   @override
   Widget build(BuildContext context) {
     final TextEditingController tecEmail = TextEditingController();
